@@ -8,8 +8,9 @@ class array{
         for(int i=0;i<n;i++){
             num[i]=scan.nextInt();
 
-            //hvhg
-            jhhvhg g  hghgh
+
+            hvghfg
+            bvhg
 
          System.out.println(num[i]);
 
