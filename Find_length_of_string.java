@@ -6,6 +6,8 @@ public class Find_length_of_string {
         for(int i:x){
             count++;
 
+            
+
         }
         System.out.println(count);
 
