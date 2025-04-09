@@ -9,6 +9,7 @@ class array{
             num[i]=scan.nextInt();
 
             //hvhg
+            jhhvhg g  hghgh
 
          System.out.println(num[i]);
 
