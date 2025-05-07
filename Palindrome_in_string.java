@@ -1,4 +1,4 @@
-public class palindrome_in_string{
+public class Palindrome_in_string{
     public static void main(String[] args){
         String str="TENET";
         String str2="";

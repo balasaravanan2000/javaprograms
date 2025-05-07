@@ -9,8 +9,8 @@ class array{
             num[i]=scan.nextInt();
 
 
-            hvghfg
-            bvhg
+        
+        
 
          System.out.println(num[i]);
 
