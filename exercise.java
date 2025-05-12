@@ -3,27 +3,25 @@ import java.util.Scanner;
 public class exercise {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-       int num1=scan.nextInt();
-       int a=0;
-       int quo=0;
-       int rem=0;
-       int num2;
-       num2=num1;
-       while (num2!=0) {
-        rem=num2%10;
-        quo=num2/10;
-        a=rem+(a*10);
-        num2=quo;
-        
-       }
-       if(num1==a){
-        System.out.println("it is palindrome");
+        int arr[] = new int[5];
+        int temp = 0;
+        for (int i = 0; i < 5; i++) {
+            arr[i] = scan.nextInt();
+        }
 
-       }
-       else{
-        System.out.println("it is not a palindrome");
-       }
-       
-}
+        for (int i = 0; i < 5; i++) {
+            for (int j = i+1; j < 5; j++) {
+               if( arr[i]>arr[j]){
+                   temp =arr[i];
+                   arr[i]=arr[j];
+                   arr[j]=temp;
+               }
+            }
+        }
+      for(int i=0;i<5;i++){
+        System.out.println();
+        System.out.print(arr[i]);
+      }
+    }
 
 }
